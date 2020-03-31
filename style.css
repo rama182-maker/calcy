@@ -1,0 +1,167 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.det{
+    color: black;
+    text-align: center;
+}
+
+.backvideo{
+    position:fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index:-1;
+    
+    
+}
+@media (min-aspect-ratio:16/9)
+{
+    .backvideo
+    {
+        width:100%;
+        height:auto;
+    }
+}
+header .card{
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    overflow: hidden;
+    color: #000;
+    
+}
+
+header{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    transform: translate(-50%, -50%);
+}
+
+
+.card-top{
+    color: palegreen;
+    background-color:deepskyblue;
+    font-size: 45px;
+    font-family: fantasy;
+    padding: 30px;
+    
+}
+.card-mid{
+    background-color:#ffccff;
+    font-family: monospace;
+    font-size: 22px;
+    border-color: #ffccff;
+    padding: 30px;
+    
+    
+    
+}
+.card-foot{
+    background-color: deepskyblue;
+    color: yellow;
+    font-size: 22px;
+    font-family: monospace;
+    font-size-adjust: auto;
+    padding: 22px;
+    
+}
+.u{
+    background-color: #ffccff;
+    padding: 20px;
+    
+}
+.t{
+    color:greenyellow;
+    font-size: 50px;
+    font-family:sans-serif;
+}
+.y{
+    margin-right: auto;
+    font-family: serif;
+    text-align: justify-all;
+   padding: 20px;
+    color:deeppink;
+    font-size: 22.5px;
+    padding-top: 2px;
+    
+}
+.pic2{
+    position:relative;
+    width: 100%;
+    top: 0;
+    height: auto;
+}
+.card{
+    
+    position:sticky;
+    width: 100%;
+    top: 100px;
+    height: auto;
+    margin:auto;
+    
+    border-color: hotpink;
+    
+}
+
+.card-lowfoot{
+    background-color:palegreen;
+    color: coral;
+    font-size: 17px;
+    font-family: monospace;
+    font-size-adjust: auto;
+    
+    page-break-after: always;
+    border-style: solid;
+    
+    border-color: yellow;
+    text-decoration: none;
+    padding: 30px;
+}
+
+.you{
+    background-color: deepskyblue;
+    color: yellow;
+    font-family: serif;
+    font-size: 20px;
+    
+}
+.fu{
+    background-color: #EFE8BC;
+    color: darkturquoise;
+    padding: 2px;
+    font-family: monospace;
+    font-size: 17px;
+    
+}
+.fu:hover{
+    text-decoration:none;
+    text-decoration-line: none;
+}
+.ol{
+    float: right;
+   
+    height: 44px;
+    will-change: auto;
+}
+.gt{
+    float: left;
+    
+    height: 44px;
+    will-change: auto;
+}
+
+.gif{
+    font-size: 15px;
+}
+
+
+
+
+
